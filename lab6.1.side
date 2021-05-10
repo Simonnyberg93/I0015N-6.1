@@ -1,0 +1,150 @@
+{
+  "id": "83007759-3d67-4250-b3c2-25a2a772c455",
+  "version": "2.0",
+  "name": "lab6.1",
+  "url": "https://www.actitime.com/",
+  "tests": [{
+    "id": "e4b99598-1fe4-4460-9b4b-f4663d4cafbb",
+    "name": "TestCase1",
+    "commands": [{
+      "id": "9b74cbd4-d669-4152-9625-d553eb589f90",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.actitime.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f88e1eb2-5306-4fb8-a6dc-b5e3a0ad0f84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d6acdd8-c00d-429f-8103-15ef70d87bc3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Try Free",
+      "targets": [
+        ["linkText=Try Free", "linkText"],
+        ["css=.header__button", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Free')]", "xpath:link"],
+        ["xpath=//section[@id='HeaderVue']/header/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/free-online-trial')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b99ba66f-a34c-43db-9c51-358f30ea7bc0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try Free",
+      "targets": [
+        ["linkText=Try Free", "linkText"],
+        ["css=.header__button", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Free')]", "xpath:link"],
+        ["xpath=//section[@id='HeaderVue']/header/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/free-online-trial')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75be71c5-e8fa-47f3-aa84-f23b11e698b2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Try Free",
+      "targets": [
+        ["linkText=Try Free", "linkText"],
+        ["css=.header__button", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Free')]", "xpath:link"],
+        ["xpath=//section[@id='HeaderVue']/header/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/free-online-trial')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7603642-850a-4141-8cb3-93b1253a8958",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=firstName", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac6366e1-b984-4a08-9c1e-c3a71b5e8e8d",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=firstName", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "John"
+    }, {
+      "id": "e832e128-444a-4f9d-97de-f68fd211fce5",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=lastName", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Doe"
+    }, {
+      "id": "0f7319e4-a6ce-4113-8d66-d1af92cbab64",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "JohnDoe@hotmail.com"
+    }, {
+      "id": "17fee0b1-f431-47dc-bfe0-2ae464d1f436",
+      "comment": "",
+      "command": "type",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=company", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Test av IT AB"
+    }]
+  }],
+  "suites": [{
+    "id": "6eb9896f-f220-451c-b661-11f89d6720fa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e4b99598-1fe4-4460-9b4b-f4663d4cafbb"]
+  }],
+  "urls": ["https://www.actitime.com/"],
+  "plugins": []
+}
